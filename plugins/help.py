@@ -125,7 +125,16 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/UniversalBotsSupport).",
+                text="Commmands🔥👍
+
+
+/ForceSubscribe - To get the current settings.
+/ForceSubscribe no/off/disable - To turn of ForceSubscribe.
+/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.
+/ForceSubscribe clear - To unmute all members who muted by me.
+/source_code - To get bot source code😝😝
+
+Note: /FSub is an alias of /ForceSubscribe",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
