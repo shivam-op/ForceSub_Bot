@@ -29,7 +29,7 @@ def _start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
                         ]
                     ]
                 ),
