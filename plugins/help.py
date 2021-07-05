@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/SUPER_X_GROUP).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -29,7 +29,7 @@ def _start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel")
                         ]
                     ]
                 ),
@@ -42,11 +42,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("Join Updates Channel✅", url="https://t.me/TEAM_SUPER_X"),
+                           InlineKeyboardButton("Support Group✅", url="https://t.me/SUPER_X_GROUP")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/TEAM_SUPER_X"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/SUPER_X_GROUP")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/Jigarvarma2005/ForceSub_Bot")
+                    InlineKeyboardButton("OWNER", url="https://t.me/SHIVAM9412")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/TEAM_SUPER_X"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/SUPER_X_GROUP")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
                 ]
             ]
         ),
