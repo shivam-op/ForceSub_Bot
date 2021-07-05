@@ -125,9 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Commmands🔥👍
-
-
+                text="Commmands 
 /ForceSubscribe - To get the current settings.
 /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
 /ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.
