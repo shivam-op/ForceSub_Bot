@@ -125,12 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Commmands 
-/ForceSubscribe - To get the current settings.
-/ForceSubscribe no/off/disable - To turn of ForceSubscribe.
-/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.
-/ForceSubscribe clear - To unmute all members who muted by me.
-/source_code - To get bot source code😝😝"
+                text="COMMANDS [HERE](https://t.me/TEAM_SUPER_X/92)"
 
 Note: /FSub is an alias of /ForceSubscribe",
                 parse_mode="markdown",
