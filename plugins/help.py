@@ -130,7 +130,7 @@ def _help(client, message):
 /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
 /ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.
 /ForceSubscribe clear - To unmute all members who muted by me.
-/source_code - To get bot source code😝😝
+/source_code - To get bot source code😝😝"
 
 Note: /FSub is an alias of /ForceSubscribe",
                 parse_mode="markdown",
