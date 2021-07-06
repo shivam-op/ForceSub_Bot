@@ -125,9 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="COMMANDS [HERE](https://t.me/TEAM_SUPER_X/92)"
-
-Note: /FSub is an alias of /ForceSubscribe",
+                text="COMMANDS [HERE](https://t.me/TEAM_SUPER_X/92)",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
