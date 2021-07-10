@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/SUPER_X_GROUP).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/WINZOGOLD7773).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel✅", url="https://t.me/TEAM_SUPER_X"),
-                           InlineKeyboardButton("Support Group✅", url="https://t.me/SUPER_X_GROUP")
+                           InlineKeyboardButton("Join Updates Channel✅", url="https://t.me/WINZOGOLDFINEL"),
+                           InlineKeyboardButton("Support Group✅", url="https://t.me/WINZOGOLD7773")
                       ],
                      [
-                           InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
+                           InlineKeyboardButton("OWNER✅", url="https://t.me/ROYALPOWER7773")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/TEAM_SUPER_X"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/SUPER_X_GROUP")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/WINZOGOLDFINEL"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/WINZOGOLD7773")
                 ],
                 [
-                    InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
+                    InlineKeyboardButton("OWNER✅", url="https://t.me/ROYALPOWER7773")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("OWNER", url="https://t.me/SHIVAM9412")
+                    InlineKeyboardButton("HELPER", url="https://t.me/SHIVAM9412")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/TEAM_SUPER_X"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/SUPER_X_GROUP")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/WINZOGOLDFINEL"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/WINZOGOLD7773")
                 ],
                 [
-                    InlineKeyboardButton("✅Devloper😈", url="https://t.me/SHIVAM9412")
+                    InlineKeyboardButton("OWNER✅", url="https://t.me/ROYALPOWER7773")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/WINZOGOLD7773).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -125,7 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="COMMANDS [HERE](https://t.me/TEAM_SUPER_X/92)",
+                text="COMMANDS [HERE](https://t.me/WINZOGOLD7773)",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
